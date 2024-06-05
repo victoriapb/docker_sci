@@ -18,7 +18,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: bartoszbartmanski/webplotdigitizer
+          images: victoriapb/docker_sci
       -
         name: Login to Docker Hub
         uses: docker/login-action@v2
