@@ -1,5 +1,5 @@
 
-FROM docker://jupyterhub/singleuser:latest
+FROM jupyterhub/singleuser:latest
 
 ENV DEBIAN_FORNTEND=noninteractive 
 ENV TZ=Europe/Berlin 
